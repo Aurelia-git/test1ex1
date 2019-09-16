@@ -19,4 +19,5 @@ COPY . .
 EXPOSE 1080
 CMD [ "node", "server.js" ]
 
+qwerty
 
