@@ -15,7 +15,8 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
+# exposing port 1080
+EXPOSE 1080
 CMD [ "node", "server.js" ]
 
 
