@@ -17,7 +17,7 @@ COPY . .
 
 # exposing port 8080
 EXPOSE 8080
-CMD [ "node", "server.js" ]
+CMD [ "node", "server2.js" ]
 
 #new comment
 
